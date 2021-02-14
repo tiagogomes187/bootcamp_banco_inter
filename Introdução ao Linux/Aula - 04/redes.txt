@@ -1,0 +1,156 @@
+
+---AULA 04 - REDES---
+
+
+O QUE É REDE?
+
+Rede de computadores é um conjunto de equipamentos interligados de maneira a trocarem informações e compartilharem recursos, como arquivos de dados gravados, impressoras, modens e outros equipamentos.  
+Os pontos de redes nós a chamamos de 'NÓS'. 
+
+REDE WAN 
+Wide Area Network ou World Area Network é uma rede geograficamente distribuida. Rede de cobertura mundial.
+
+REDE MAN
+Metropolitan Area Network é uma rede metropolitana que interligam várias redes locais. Ex: Cidade grande que dstribui para pequnas cidades.
+
+REDE LAN
+Local Area Network é uma rede local de uma forma geral em um único prédio ou campus. Ex: a rede de nossa casa é considera uma rede LAN.
+
+PROTOCOLOS
+Protocolo é uma "Linguagem" usada pelos dispositivos de uma rede de modo que eles consigam se entender.
+Existem vários protocolos.
+
+IP - Protocolo de internet - Endereço IP - números que indentificam seu computador em uma rede.
+
+ICMP - (Internet Control Message Protocol) tem por objetivo prover mensagens de controle na comunicação entre "nós".
+
+DNS - Domain Name Server - esse protocolo de aplicação tem por função identificar endereços IP e manter uma tabela com os endereços dos caminhos de algumas redes.
+
+INTERFACE DE REDE
+Interface de rede é um software e/ou hardware que faz a comunicação em uma rede de computadores.
+
+As interfaces de rede no Linux estão localizadas no diretório /dev e a maioria é criada dinamicamente pelos softwares quando são requisitadas.
+
+Exemplo: etho - Placa de rede Ethernet - cabeada.
+
+A iterface de loopback é um tipo especial de interface que permite fazer conexões com você mesmo, com ela, você pode testar vários programas de rede sem interferir em sua rede. Padrão, o endereço IP 127.0.0.1 foi escolhido para loopback.
+
+
+---COMANDOS DE REDES NA PRÁTICA---
+
+$ sudo apt install net-tools = O comando acima vai baixar e instalar os pacotes de redes.
+-sudo - faz eleveção de usuário. Super usuário.
+
+$ ifconfig = Exibe todas as interfaces de redes
+
+IPV4 - tem uma sequência de números
+IPV6 - é uma sequência hexadecimal
+
+BROADCAST - Broadcast é um termo que vem do inglês e significa transmitir. É o processo pelo qual se transmite ou difunde determinada informação para muitos receptores ao mesmo tempo.
+
+MAC - é o endereço fisico da máquina.
+
+$ hostname = nos traz informações sobre o host que é o nosso computador na rede.
+Este comando nos traz o nome do computador na rede.
+
+$ hostname -I = para saber o endereço deste computador na nossa rede. Teremos o endereço IP
+
+$ hostname -i = para saber o endereço de loopback. Teremos 127.0.0.1
+
+$ who = nos traz como nos estamos logados na rede.
+
+$ whoami = só mostrará o nome do usuário logado na rede.
+
+$ ping www.google.com = faz parte do protocolo ICMP - envia menssagem de controle para um determinado host, verificando se o mesmo está ativo ou inativo.
+Este comando envia um pacote de requisição para o host que recebe as respostas que chamanos de "pong".
+
+$ ping www.google.com -w 4 = limita os pacotes de ping a serem enviados e testados. 
+
+Nó
+-Redes de comunicação - Em redes de comunicação, um nodo ou nó é um ponto de conexão, seja um ponto de redistribuição ou um terminal de comunicação. A definição de um nó depende da rede e da camada de protocolo referida.
+
+$ dig www.google.com =  exibe todas as informações sobre o DNS - caminhos de redes.
+
+DNS - usado para colocar nomes aos endereços IPs e o encaminhamento dos hosts.
+
+---TRACEROUTE---
+
+$ sudo apt install traceroute = instala o 'traceroute'.
+ 1  _gateway (192.168.154.2)  1.146 ms  0.990 ms  0.893 ms
+ 2  * * *
+ 3  * * *
+ 4  * * *
+ 5  * * *
+ 6  * * *
+ 7  * * *
+Traçando rotas, no exeplo acima existem 30 nós até chegar ao servidor onde fica hospedado a Google.
+
+$ dig www.google.com +short = Este comando só vai mostar o IP do google.
+
+---COMANDO WHOIS---
+
+$ sudo apt install whois
+
+$ whois www.pudim.com.br = Este comando traz inforções sobre um determinado domínio.
+
+---COMANDO FINGER---
+
+$ sudo apt install finger = Instala o pacote finger
+
+$ finger = mostra toda a informação do usuário que está logando no nosso host.
+saida: Login     Name          Tty      Idle  Login Time   Office     Office Phone
+tiago     Tiago Gomes  *:0             Feb  6 19:08 (:0)
+
+---COMANDO W---
+$ w = exibe informações de usuário logado em nosso host.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

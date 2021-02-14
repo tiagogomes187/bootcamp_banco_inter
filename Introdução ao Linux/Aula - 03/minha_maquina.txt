@@ -1,0 +1,744 @@
+---INFORMAÇÕES DE HARDWARE---
+
+ubuntu
+    descrição: Computer
+    largura: 64 bits
+    capacidades: smp vsyscall32
+  *-core
+       descrição: Motherboard
+       ID físico: 0
+     *-memory
+          descrição: Memória do sistema
+          ID físico: 0
+          tamanho: 4GiB
+     *-cpu:0
+          produto: Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz
+          fabricante: Intel Corp.
+          ID físico: 1
+          informações do barramento: cpu@0
+          largura: 64 bits
+          capacidades: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp x86-64 constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc cpuid pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves arat md_clear flush_l1d arch_capabilities
+     *-cpu:1
+          produto: Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz
+          fabricante: Intel Corp.
+          ID físico: 2
+          informações do barramento: cpu@1
+          largura: 64 bits
+          capacidades: fpu fpu_exception wp vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp x86-64 constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc cpuid pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves arat md_clear flush_l1d arch_capabilities
+     *-pci
+          descrição: Host bridge
+          produto: 440BX/ZX/DX - 82443BX/ZX/DX Host bridge
+          fabricante: Intel Corporation
+          ID físico: 100
+          informações do barramento: pci@0000:00:00.0
+          versão: 01
+          largura: 32 bits
+          clock: 33MHz
+          configuração: driver=agpgart-intel
+          recursos: irq:0
+        *-pci:0
+             descrição: PCI bridge
+             produto: 440BX/ZX/DX - 82443BX/ZX/DX AGP bridge
+             fabricante: Intel Corporation
+             ID físico: 1
+             informações do barramento: pci@0000:00:01.0
+             versão: 01
+             largura: 32 bits
+             clock: 66MHz
+             capacidades: pci normal_decode bus_master
+        *-isa
+             descrição: ISA bridge
+             produto: 82371AB/EB/MB PIIX4 ISA
+             fabricante: Intel Corporation
+             ID físico: 7
+             informações do barramento: pci@0000:00:07.0
+             versão: 08
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: isa bus_master
+             configuração: latency=0
+        *-ide
+             descrição: IDE interface
+             produto: 82371AB/EB/MB PIIX4 IDE
+             fabricante: Intel Corporation
+             ID físico: 7.1
+             informações do barramento: pci@0000:00:07.1
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: ide isa_compat_mode pci_native_mode bus_master
+             configuração: driver=ata_piix latency=64
+             recursos: irq:0 porta de E/S:1f0(tamanho=8) porta de E/S:3f6 porta de E/S:170(tamanho=8) porta de E/S:376 porta de E/S:1060(tamanho=16)
+        *-bridge DISPONÍVEL
+             descrição: Bridge
+             produto: 82371AB/EB/MB PIIX4 ACPI
+             fabricante: Intel Corporation
+             ID físico: 7.3
+             informações do barramento: pci@0000:00:07.3
+             versão: 08
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: bridge
+             configuração: latency=0
+        *-generic
+             descrição: System peripheral
+             produto: Virtual Machine Communication Interface
+             fabricante: VMware
+             ID físico: 7.7
+             informações do barramento: pci@0000:00:07.7
+             versão: 10
+             largura: 64 bits
+             clock: 33MHz
+             capacidades: bus_master cap_list
+             configuração: driver=vmw_vmci latency=64 maxlatency=255 mingnt=6
+             recursos: irq:16 porta de E/S:1080(tamanho=64) memória:febfe000-febfffff
+        *-display
+             descrição: VGA compatible controller
+             produto: SVGA II Adapter
+             fabricante: VMware
+             ID físico: f
+             informações do barramento: pci@0000:00:0f.0
+             versão: 00
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: vga_controller bus_master cap_list rom
+             configuração: driver=vmwgfx latency=64
+             recursos: irq:16 porta de E/S:1070(tamanho=16) memória:e8000000-efffffff memória:fe000000-fe7fffff memória:c0000-dffff
+        *-scsi
+             descrição: SCSI storage controller
+             produto: 53c1030 PCI-X Fusion-MPT Dual Ultra320 SCSI
+             fabricante: Broadcom / LSI
+             ID físico: 10
+             informações do barramento: pci@0000:00:10.0
+             versão: 01
+             largura: 64 bits
+             clock: 33MHz
+             capacidades: scsi bus_master cap_list rom
+             configuração: driver=mptspi latency=64 maxlatency=255 mingnt=6
+             recursos: irq:17 porta de E/S:1400(tamanho=256) memória:feba0000-febbffff memória:febc0000-febdffff memória:c0008000-c000bfff
+        *-pci:1
+             descrição: PCI bridge
+             produto: PCI bridge
+             fabricante: VMware
+             ID físico: 11
+             informações do barramento: pci@0000:00:11.0
+             versão: 02
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci subtractive_decode bus_master cap_list
+             recursos: porta de E/S:2000(tamanho=8192) memória:fd500000-fdffffff porta de E/S:e7b00000(tamanho=5242880)
+           *-usb:0
+                descrição: USB controller
+                produto: USB1.1 UHCI Controller
+                fabricante: VMware
+                ID físico: 0
+                informações do barramento: pci@0000:02:00.0
+                versão: 00
+                largura: 32 bits
+                clock: 33MHz
+                capacidades: uhci bus_master cap_list
+                configuração: driver=uhci_hcd latency=64
+                recursos: irq:18 porta de E/S:2080(tamanho=32)
+           *-network
+                descrição: Ethernet interface
+                produto: 82545EM Gigabit Ethernet Controller (Copper)
+                fabricante: Intel Corporation
+                ID físico: 1
+                informações do barramento: pci@0000:02:01.0
+                nome lógico: ens33
+                versão: 01
+                serial: 00:0c:29:e3:3b:3c
+                tamanho: 1Gbit/s
+                capacidade: 1Gbit/s
+                largura: 64 bits
+                clock: 66MHz
+                capacidades: bus_master cap_list rom ethernet physical logical tp 10bt 10bt-fd 100bt 100bt-fd 1000bt-fd autonegotiation
+                configuração: autonegotiation=on broadcast=yes driver=e1000 driverversion=7.3.21-k8-NAPI duplex=full ip=192.168.154.128 latency=0 link=yes mingnt=255 multicast=yes port=twisted pair speed=1Gbit/s
+                recursos: irq:19 memória:fd5c0000-fd5dffff memória:fdff0000-fdffffff porta de E/S:2000(tamanho=64) memória:fd500000-fd50ffff
+           *-multimedia
+                descrição: Multimedia audio controller
+                produto: ES1371/ES1373 / Creative Labs CT2518
+                fabricante: Ensoniq
+                ID físico: 2
+                informações do barramento: pci@0000:02:02.0
+                versão: 02
+                largura: 32 bits
+                clock: 33MHz
+                capacidades: bus_master cap_list
+                configuração: driver=snd_ens1371 latency=64 maxlatency=255 mingnt=6
+                recursos: irq:16 porta de E/S:2040(tamanho=64)
+           *-usb:1
+                descrição: USB controller
+                produto: USB2 EHCI Controller
+                fabricante: VMware
+                ID físico: 3
+                informações do barramento: pci@0000:02:03.0
+                versão: 00
+                largura: 32 bits
+                clock: 33MHz
+                capacidades: ehci bus_master cap_list
+                configuração: driver=ehci-pci latency=64 maxlatency=255 mingnt=6
+                recursos: irq:17 memória:fd5ef000-fd5effff
+           *-sata
+                descrição: SATA controller
+                produto: SATA AHCI controller
+                fabricante: VMware
+                ID físico: 5
+                informações do barramento: pci@0000:02:05.0
+                versão: 00
+                largura: 32 bits
+                clock: 66MHz
+                capacidades: sata ahci_1.0 bus_master cap_list rom
+                configuração: driver=ahci latency=64
+                recursos: irq:56 memória:fd5ee000-fd5eefff memória:fd510000-fd51ffff
+        *-pci:2
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 15
+             informações do barramento: pci@0000:00:15.0
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:24 porta de E/S:4000(tamanho=4096) memória:fd400000-fd4fffff porta de E/S:e7a00000(tamanho=1048576)
+        *-pci:3
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 15.1
+             informações do barramento: pci@0000:00:15.1
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:25 porta de E/S:8000(tamanho=4096) memória:fd000000-fd0fffff porta de E/S:e7600000(tamanho=1048576)
+        *-pci:4
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 15.2
+             informações do barramento: pci@0000:00:15.2
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:26 porta de E/S:c000(tamanho=4096) memória:fcc00000-fccfffff porta de E/S:e7200000(tamanho=1048576)
+        *-pci:5
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 15.3
+             informações do barramento: pci@0000:00:15.3
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:27 memória:fc800000-fc8fffff porta de E/S:e6e00000(tamanho=1048576)
+        *-pci:6
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 15.4
+             informações do barramento: pci@0000:00:15.4
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:28 memória:fc400000-fc4fffff porta de E/S:e6a00000(tamanho=1048576)
+        *-pci:7
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 15.5
+             informações do barramento: pci@0000:00:15.5
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:29 memória:fc000000-fc0fffff porta de E/S:e6600000(tamanho=1048576)
+        *-pci:8
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 15.6
+             informações do barramento: pci@0000:00:15.6
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:30 memória:fbc00000-fbcfffff porta de E/S:e6200000(tamanho=1048576)
+        *-pci:9
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 15.7
+             informações do barramento: pci@0000:00:15.7
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:31 memória:fb800000-fb8fffff porta de E/S:e5e00000(tamanho=1048576)
+        *-pci:10
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 16
+             informações do barramento: pci@0000:00:16.0
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:32 porta de E/S:5000(tamanho=4096) memória:fd300000-fd3fffff porta de E/S:e7900000(tamanho=1048576)
+        *-pci:11
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 16.1
+             informações do barramento: pci@0000:00:16.1
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:33 porta de E/S:9000(tamanho=4096) memória:fcf00000-fcffffff porta de E/S:e7500000(tamanho=1048576)
+        *-pci:12
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 16.2
+             informações do barramento: pci@0000:00:16.2
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:34 porta de E/S:d000(tamanho=4096) memória:fcb00000-fcbfffff porta de E/S:e7100000(tamanho=1048576)
+        *-pci:13
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 16.3
+             informações do barramento: pci@0000:00:16.3
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:35 memória:fc700000-fc7fffff porta de E/S:e6d00000(tamanho=1048576)
+        *-pci:14
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 16.4
+             informações do barramento: pci@0000:00:16.4
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:36 memória:fc300000-fc3fffff porta de E/S:e6900000(tamanho=1048576)
+        *-pci:15
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 16.5
+             informações do barramento: pci@0000:00:16.5
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:37 memória:fbf00000-fbffffff porta de E/S:e6500000(tamanho=1048576)
+        *-pci:16
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 16.6
+             informações do barramento: pci@0000:00:16.6
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:38 memória:fbb00000-fbbfffff porta de E/S:e6100000(tamanho=1048576)
+        *-pci:17
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 16.7
+             informações do barramento: pci@0000:00:16.7
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:39 memória:fb700000-fb7fffff porta de E/S:e5d00000(tamanho=1048576)
+        *-pci:18
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 17
+             informações do barramento: pci@0000:00:17.0
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:40 porta de E/S:6000(tamanho=4096) memória:fd200000-fd2fffff porta de E/S:e7800000(tamanho=1048576)
+        *-pci:19
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 17.1
+             informações do barramento: pci@0000:00:17.1
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:41 porta de E/S:a000(tamanho=4096) memória:fce00000-fcefffff porta de E/S:e7400000(tamanho=1048576)
+        *-pci:20
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 17.2
+             informações do barramento: pci@0000:00:17.2
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:42 porta de E/S:e000(tamanho=4096) memória:fca00000-fcafffff porta de E/S:e7000000(tamanho=1048576)
+        *-pci:21
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 17.3
+             informações do barramento: pci@0000:00:17.3
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:43 memória:fc600000-fc6fffff porta de E/S:e6c00000(tamanho=1048576)
+        *-pci:22
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 17.4
+             informações do barramento: pci@0000:00:17.4
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:44 memória:fc200000-fc2fffff porta de E/S:e6800000(tamanho=1048576)
+        *-pci:23
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 17.5
+             informações do barramento: pci@0000:00:17.5
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:45 memória:fbe00000-fbefffff porta de E/S:e6400000(tamanho=1048576)
+        *-pci:24
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 17.6
+             informações do barramento: pci@0000:00:17.6
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:46 memória:fba00000-fbafffff porta de E/S:e6000000(tamanho=1048576)
+        *-pci:25
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 17.7
+             informações do barramento: pci@0000:00:17.7
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:47 memória:fb600000-fb6fffff porta de E/S:e5c00000(tamanho=1048576)
+        *-pci:26
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 18
+             informações do barramento: pci@0000:00:18.0
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:48 porta de E/S:7000(tamanho=4096) memória:fd100000-fd1fffff porta de E/S:e7700000(tamanho=1048576)
+        *-pci:27
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 18.1
+             informações do barramento: pci@0000:00:18.1
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:49 porta de E/S:b000(tamanho=4096) memória:fcd00000-fcdfffff porta de E/S:e7300000(tamanho=1048576)
+        *-pci:28
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 18.2
+             informações do barramento: pci@0000:00:18.2
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:50 memória:fc900000-fc9fffff porta de E/S:e6f00000(tamanho=1048576)
+        *-pci:29
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 18.3
+             informações do barramento: pci@0000:00:18.3
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:51 memória:fc500000-fc5fffff porta de E/S:e6b00000(tamanho=1048576)
+        *-pci:30
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 18.4
+             informações do barramento: pci@0000:00:18.4
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:52 memória:fc100000-fc1fffff porta de E/S:e6700000(tamanho=1048576)
+        *-pci:31
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 18.5
+             informações do barramento: pci@0000:00:18.5
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:53 memória:fbd00000-fbdfffff porta de E/S:e6300000(tamanho=1048576)
+        *-pci:32
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 18.6
+             informações do barramento: pci@0000:00:18.6
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:54 memória:fb900000-fb9fffff porta de E/S:e5f00000(tamanho=1048576)
+        *-pci:33
+             descrição: PCI bridge
+             produto: PCI Express Root Port
+             fabricante: VMware
+             ID físico: 18.7
+             informações do barramento: pci@0000:00:18.7
+             versão: 01
+             largura: 32 bits
+             clock: 33MHz
+             capacidades: pci normal_decode bus_master cap_list
+             configuração: driver=pcieport
+             recursos: irq:55 memória:fb500000-fb5fffff porta de E/S:e5b00000(tamanho=1048576)
+     *-pnp00:00
+          produto: PnP device PNP0c02
+          ID físico: 3
+          capacidades: pnp
+          configuração: driver=system
+     *-pnp00:01
+          produto: PnP device PNP0b00
+          ID físico: 4
+          capacidades: pnp
+          configuração: driver=rtc_cmos
+     *-pnp00:02
+          produto: PnP device PNP0303
+          ID físico: 5
+          capacidades: pnp
+          configuração: driver=i8042 kbd
+     *-pnp00:03
+          produto: PnP device VMW0003
+          ID físico: 6
+          capacidades: pnp
+          configuração: driver=i8042 aux
+     *-pnp00:04
+          produto: PnP device PNP0103
+          ID físico: 7
+          capacidades: pnp
+          configuração: driver=system
+     *-pnp00:05
+          produto: PnP device PNP0501
+          ID físico: 8
+          capacidades: pnp
+          configuração: driver=serial
+     *-pnp00:06
+          produto: PnP device PNP0c02
+          ID físico: 9
+          capacidades: pnp
+          configuração: driver=system
+     *-scsi
+          ID físico: a
+          nome lógico: scsi3
+          capacidades: emulated
+        *-cdrom
+             descrição: DVD-RAM writer
+             produto: VMware SATA CD01
+             fabricante: NECVMWar
+             ID físico: 0.0.0
+             informações do barramento: scsi@3:0.0.0
+             nome lógico: /dev/cdrom
+             nome lógico: /dev/cdrw
+             nome lógico: /dev/dvd
+             nome lógico: /dev/sr0
+             versão: 1.00
+             capacidades: removable audio cd-r cd-rw dvd dvd-r dvd-ram
+             configuração: ansiversion=5 status=open
+  *-scsi
+       ID físico: 1
+       informações do barramento: scsi@32
+       nome lógico: scsi32
+       capacidades: scsi-host
+       configuração: driver=mptspi
+
+---INFORMAÇÕES DE MEMÓRIA---
+
+              total       usada       livre    compart.  buff/cache  disponível
+Mem.:       4000784     1112608     1426704       28352     1461472     2595128
+Swap:        945416           0      945416
+
+---INFORMAÇÕES DE PLACA PCI---
+
+00:00.0 Host bridge: Intel Corporation 440BX/ZX/DX - 82443BX/ZX/DX Host bridge (rev 01)
+00:01.0 PCI bridge: Intel Corporation 440BX/ZX/DX - 82443BX/ZX/DX AGP bridge (rev 01)
+00:07.0 ISA bridge: Intel Corporation 82371AB/EB/MB PIIX4 ISA (rev 08)
+00:07.1 IDE interface: Intel Corporation 82371AB/EB/MB PIIX4 IDE (rev 01)
+00:07.3 Bridge: Intel Corporation 82371AB/EB/MB PIIX4 ACPI (rev 08)
+00:07.7 System peripheral: VMware Virtual Machine Communication Interface (rev 10)
+00:0f.0 VGA compatible controller: VMware SVGA II Adapter
+00:10.0 SCSI storage controller: Broadcom / LSI 53c1030 PCI-X Fusion-MPT Dual Ultra320 SCSI (rev 01)
+00:11.0 PCI bridge: VMware PCI bridge (rev 02)
+00:15.0 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:15.1 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:15.2 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:15.3 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:15.4 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:15.5 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:15.6 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:15.7 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:16.0 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:16.1 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:16.2 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:16.3 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:16.4 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:16.5 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:16.6 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:16.7 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:17.0 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:17.1 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:17.2 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:17.3 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:17.4 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:17.5 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:17.6 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:17.7 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:18.0 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:18.1 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:18.2 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:18.3 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:18.4 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:18.5 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:18.6 PCI bridge: VMware PCI Express Root Port (rev 01)
+00:18.7 PCI bridge: VMware PCI Express Root Port (rev 01)
+02:00.0 USB controller: VMware USB1.1 UHCI Controller
+02:01.0 Ethernet controller: Intel Corporation 82545EM Gigabit Ethernet Controller (Copper) (rev 01)
+02:02.0 Multimedia audio controller: Ensoniq ES1371/ES1373 / Creative Labs CT2518 (rev 02)
+02:03.0 USB controller: VMware USB2 EHCI Controller
+02:05.0 SATA controller: VMware SATA AHCI controller
+
+---INFORMAÇÕES DE DISPOSITIVEIS USB---
+
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 003: ID 0e0f:0002 VMware, Inc. Virtual USB Hub
+Bus 002 Device 002: ID 0e0f:0003 VMware, Inc. Virtual Mouse
+Bus 002 Device 001: ID 1d6b:0001 Linux Foundation 1.1 root hub
+
+---INFORMAÇÕES DE CPU (PROCESSADOR)---
+
+Arquitetura:                     x86_64
+Modo(s) operacional da CPU:      32-bit, 64-bit
+Ordem dos bytes:                 Little Endian
+Address sizes:                   45 bits physical, 48 bits virtual
+CPU(s):                          2
+Lista de CPU(s) on-line:         0,1
+Thread(s) per núcleo:            1
+Núcleo(s) por soquete:           1
+Soquete(s):                      2
+Nó(s) de NUMA:                   1
+ID de fornecedor:                GenuineIntel
+Família da CPU:                  6
+Modelo:                          158
+Nome do modelo:                  Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz
+Step:                            9
+CPU MHz:                         3000.002
+BogoMIPS:                        6000.00
+Virtualização:                   VT-x
+Fabricante do hipervisor:        VMware
+Tipo de virtualização:           completo
+cache de L1d:                    64 KiB
+cache de L1i:                    64 KiB
+cache de L2:                     512 KiB
+cache de L3:                     12 MiB
+CPU(s) de nó0 NUMA:              0,1
+Vulnerability Itlb multihit:     KVM: Mitigation: VMX disabled
+Vulnerability L1tf:              Mitigation; PTE Inversion; VMX flush not necessary, SMT disabled
+Vulnerability Mds:               Mitigation; Clear CPU buffers; SMT Host state unknown
+Vulnerability Meltdown:          Mitigation; PTI
+Vulnerability Spec store bypass: Mitigation; Speculative Store Bypass disabled via prctl and seccomp
+Vulnerability Spectre v1:        Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:        Mitigation; Full generic retpoline, IBPB conditional, IBRS_FW, STIBP disabled, RSB filling
+Vulnerability Srbds:             Unknown: Dependent on hypervisor status
+Vulnerability Tsx async abort:   Not affected
+Opções:                          fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon nopl xtopology tsc_reliable nonstop_tsc cpuid pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch cpuid_fault invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 invpcid rdseed adx smap clflushopt xsaveopt xsavec xgetbv1 xsaves arat md_clear flush_l1d arch_capabilities
+
+---INFORMAÇÕES SOBRE O KARNEL---
+
+Nome do Kernel: 
+Linux ubuntu 5.8.0-41-generic #46~20.04.1-Ubuntu SMP Mon Jan 18 17:52:23 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux
+Versão do Kernel: 
+5.8.0-41-generic
+Arquitetura: 
+x86_64

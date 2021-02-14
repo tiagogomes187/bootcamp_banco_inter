@@ -1,0 +1,159 @@
+---AULA - 05---
+
+ $ history = mostra o historico de todos os comandos que já utilizamos.
+ $ history -c = apaga todo o historico de comandos utilizados anteriormente.
+ $ alias = ele da um nickname "apelido" para um determinado comando.
+ #Exemplo: $ alias hh="history" agora o apeli do comando history é 'hh'.
+ $ alias trc='traceroute' = aqui o comando traceroute passou a ser chamdo do 'trc', se digitarmos: trc www.pudim.com.br veremos o comando traçando as rotas do domínio.
+ $ nl aularedes.txt = faz um cat mostrando o números de linhas
+ $ wc -l aularedes.txt = mostra o número de linha, somente a quantidade. #ele conta as linhas em branco.
+ $ wc -w aularedes.txt = mostra o número de palavras no arquivo.
+ $ wc -c aularedes.txt = mostra tamanho do arquivo em bytes .
+ $ wc -m aularedes.txt =  mostra o quantidade de caracteres do arquivo.
+ $ ls -a = mostra os arquivos ocultos.
+ $ ls -F = ele coloca uma barra na frente de cada diretório.
+ $ cmp aularedes.txt vazio.txt = faz a comparação de dois arquivos.
+ #A saida do comando 'cmp' acima é: cmp: Fim de arquivo (EOF) em vazio.txt que está vazio
+ $ diff aularedes.txt vazio.txt = faz outra diferença entre 2 arquivos e mostra o conteúdo.
+ $ sort -n vazio.txt = Organiza a saida deste arquivo em ordem numerica.
+ #comando:
+ $ last reboot = mostra as informações de reinicilização do nosso sistema.
+#saída:
+reboot   system boot  5.8.0-41-generic Sat Feb  6 19:08   still running
+reboot   system boot  5.8.0-41-generic Sat Feb  6 02:09 - 03:40  (01:31)
+ 
+#COMANDO:
+$ route -n = mostra as tabela de roteamento IP do nosso kernel.
+#SAÍDA:
+Tabela de Roteamento IP do Kernel
+Destino         Roteador        MáscaraGen.    Opções Métrica Ref   Uso Iface
+0.0.0.0         192.168.154.2   0.0.0.0         UG    100    0        0 ens33
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 ens33
+192.168.154.0   0.0.0.0         255.255.255.0   U     100    0        0 ens33
+
+#COMANDO:
+$ time = mostra o tempo de um processo.
+#SAÍDA:
+
+real	0m0,000s
+user	0m0,000s
+sys	0m0,000s
+
+#COMANDO:
+$ time traceroute www.pudim.com.br = mostra quanto tempo que este comando demora para ser processado.
+#SAÍDA:
+real	0m30,280s
+user	0m0,000s
+sys	0m0,012s
+
+#COMANDO:
+$ uptime = Mostra o tempo que o sistema está rodando.
+#SAÍDA:
+ 22:40:43 up  3:32,  1 user,  load average: 0,18, 0,10, 0,03
+
+#COMANDO:
+$ cowsay "Linux é bom" = mostra o vaquinha falando <Linux é bom>.
+#SAÍDA:
+ _____________
+< Linux é bom >
+ -------------
+        \   ^__^
+         \  (oo)\_______
+            (__)\       )\/\
+                ||----w |
+                ||     ||
+
+#COMANDO:
+$ cowsay -d "Linux" = vaquina de mostrando a lingua
+#SAÍDA:
+ _______
+< Linux >
+ -------
+        \   ^__^
+         \  (xx)\_______
+            (__)\       )\/\
+             U  ||----w |
+                ||     ||
+#COMANDO:
+$ cowsay -f tux "Linux"
+#SAÍDA:
+ _______
+< Linux >
+ -------
+   \
+    \
+        .--.
+       |o_o |
+       |:_/ |
+      //   \ \
+     (|     | )
+    /'\_   _/`\
+    \___)=(___/
+
+#COMANDO:
+$ cowsay -f vader "Linux"
+#SAÍDA:
+ _______
+< Linux >
+ -------
+        \    ,-^-.
+         \   !oYo!
+          \ /./=\.\______
+               ##        )\/\
+                ||-----w||
+                ||      ||
+
+               Cowth Vader
+#COMANDO:
+$ cowsay -f vader-koala "Linux"
+#SAÍDA:
+ _______
+< Linux >
+ -------
+   \
+    \        .
+     .---.  //
+    Y|o o|Y// 
+   /_(i=i)K/ 
+   ~()~*~()~  
+    (_)-(_)   
+
+     Darth 
+     Vader    
+     koala 
+#COMANDO:
+$ cowsay -f dragon "Linux"
+#SAÍDA:
+ _______
+< Linux >
+ -------
+      \                    / \  //\
+       \    |\___/|      /   \//  \\
+            /0  0  \__  /    //  | \ \    
+           /     /  \/_/    //   |  \  \  
+           @_^_@'/   \/_   //    |   \   \ 
+           //_^_/     \/_ //     |    \    \
+        ( //) |        \///      |     \     \
+      ( / /) _|_ /   )  //       |      \     _\
+    ( // /) '/,_ _ _/  ( ; -.    |    _ _\.-~        .-~~~^-.
+  (( / / )) ,-{        _      `-.|.-~-.           .~         `.
+ (( // / ))  '/\      /                 ~-. _ .-~      .-~^-.  \
+ (( /// ))      `.   {            }                   /      \  \
+  (( / ))     .----~-.\        \-'                 .~         \  `. \^-.
+             ///.----..>        \             _ -~             `.  ^-`  ^-_
+               ///-._ _ _ _ _ _ _}^ - - - - ~                     ~-- ,.-~
+                                                                  /.-~
+
+#COMANDO:
+$ xcowsay "Linux"
+#SAÍDA:
+Vaquinha meio 2d, fica por aluns segundos na tela e some.
+
+
+
+
+
+
+
+
+

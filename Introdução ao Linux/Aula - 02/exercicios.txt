@@ -1,0 +1,74 @@
+Exercícios de Revisão
+1) Crie uma pasta de nome Exercícios e Acesse a mesma
+R: mkdir Exercícios && cd Exercícios
+
+2) Crie um arquivo vazio de nome lista_nomes.txt
+R: touch lista_nomes.txt
+
+3) Abra este arquivo com o Editor Nano
+R: nano lista_nomes.txt
+
+4) Digite 20 Nomes de Pessoas Conhecidas incluindo o seu, pulando de linha para cada nome inserido.
+R: Tiago Gomes
+Simone Maia
+Kelly Duarte
+Sueli Gomes
+Cilene Menezes
+Máriston Godinho
+Nivaldo Barbosa
+João Marcos
+Aleksander Ambrosio
+Giulia Gomes
+Guilherme Henrique
+Gustavo Pereira
+Francisco Valério
+Eva Ferreira
+Beto Maia
+Hélita Maia
+Simone Cabral
+José Laudenor
+Agusto Menezes
+Edson Freitas
+
+5) Salve o arquivo
+R: CTRL+O
+
+6) Exiba os 10 primeiros Nomes da Lista
+R: head lista_nomes.txt
+
+7) Exiba os 10 ultimos Nomes da Lista
+R: tail lista_nomes.txt
+
+8) Procure no texto o seu nome
+R: grep Tiago Gomes lista_nomes.txt
+R: cat lista_nomes.txt | grep Tiago Gomes
+
+9) Crie um Arquivo chamado setembro.txt com a saida do comando cal.
+R: cal setembro 2021 > setenbro.txt
+
+10) Adicione o conteúdo do arquivo setembro.txt ao arquivo lista_nomes.txt
+R: cat setembro.txt >> lista_nomes.txt
+
+11) Exiba o arquivo lista_nomes.txt com paginação
+R: less lista_nomes.txt
+
+12) Exiba o caminho do arquivos setembro.txt
+R: find ~ -name setembro.txt
+
+13) Exiba o tipo do arquivo lista_nomes.txt
+R: file lista_nomes.txt
+
+14) Exiba a explicação do comando ls
+R: whatis ls
+
+15) Renomeie o Arquivo lista_nomes.txt para arquivo.txt
+R: mv lista_nomes.txt arquivo.txt
+
+16) Limpe o Terminal
+R: clear
+
+17) Saia do Terminal
+R: exit
+
+Acesse guiafoca.org
+

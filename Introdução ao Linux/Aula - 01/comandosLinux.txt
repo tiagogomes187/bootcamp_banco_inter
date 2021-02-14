@@ -1,0 +1,62 @@
+Comandos Linux:
+$ pwd = Mostra o caminho onde estamos logado. 
+$ ~ = Sginifica que estamos na 'Pasta Pessoal'.
+$ ls = Lista os diretórios e arquivos dentro da pasta que estou.
+$ ls Documentos/ = Lista todo conteúdo da pasta 'Documentos'.
+$ cd Documentos/ = Entra na pasta 'Documentos'.
+$ mkdir = Usado para criar pasta
+$ cd .. = Retorna um diretório anterior
+$ / = Diretório raiz do sistema operacional.
+$ cd / = Redireciona o camainho atual para o diretório 'raiz'.
+$ ls -l = Lista longa,lista diretório e arquivos com detalhes.
+$ ls dir = Lista outro diretório que não o corrente.
+$ man ls = Retorna uma saída contendo o manual ls.
+$ q = Para sair do manual
+$ h = Para ajuda no manual.
+$ ls --help = Vai trazer o arquvo de ajuda em português.
+$ cd ~ = Retorna para a pasta pessoal.
+$ history = Exibe uma listagem de todos os comando usados no terminal.
+$ seta para cima = Acesso os comandos utilizados anteriormente. 1a1
+$ !! = Executa o ultimo comando utulizado no terminal.
+
+----ATALHOS---
+
+CTROL+C = Cancela o comando atual
+CTROL+Z = Pausa o comando atual, em primeiro plano ou em segundo plano
+CTROL+D = Faz o logout da sessão atual
+CTROL+W = Apaga uma palavra na linha atual
+CTROL+U = Apaga a linha inteira
+CTROL+R = Busca um comando recente
+!! = Repete o ultimo comando
+exit = Faz o lagout da sessão atual.
+
+
+$ mv = Mover ou renomear um arquivo ou diretório. 
+syntax $ mv Teste Linux - para renomear $ mv Linux ~ - para mover para pasta home.
+
+$ touch = Cria arquivos vazios.
+syntax $ touch teste.txt
+
+$ mv teste.txt linux.txt = Renomeia o arquivo teste.txt para linux.txt
+
+$ cp = faz a cópia de um arquivo ou diretório. 
+syntax cp linux.txt /home/tiago
+
+$ mv linux.txt /home/tiago/Downloads/ = Move o arquivo linux.txt para pasta Downloads.
+
+$ clear = Limpar o terminal
+
+$  rmdir = Remove o diretórios.
+sintax $  rmdir Linux - Remove a pasta Linux
+
+$ rm = Remove arquivos.
+sintax $ rm teste.txt - Vai remover o aquivo teste.txt
+
+$ rm -r = Remove diretórios com a opção -r - recurssiva.
+
+exit = Termina a sessão atual do terminal.
+
+
+
+
+

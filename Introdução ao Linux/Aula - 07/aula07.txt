@@ -1,0 +1,229 @@
+----AULA - 07----
+
+#Compactação, descompactação e arquivamento
+
+gzip - compactador muito usado, possui uma taxa excelente de compactação.
+
+#compactando
+#comando:
+ $ gzip aularedes.txt
+#saida:
+ tiago@ubuntu:~/Documentos/Bootcamp_Inter/Treinamento Linux/Aula - 07$ ls -l
+-rw-rw-r-- 1 tiago tiago 1274 fev  9 19:51 aularedes.txt.gz
+
+
+#descompactando
+#comando:
+ $ gunzip aularedes.txt.gz 
+ // gzip -9 aularedes.txt = usa a compactação máxima
+
+#saida
+ $ ls -lh
+ -rw-rw-r--  1 tiago tiago 2,6K fev  9 19:51 aularedes.txt
+
+ // gzip -9 aularedes.txt = usa a compactação máxima
+
+#comando:
+ $ gzip -9 aularedes.txt
+#saida:
+ $ ls -lha
+-rw-rw-r--  1 tiago tiago 1,3K fev  9 19:51 aularedes.txt.gz
+
+#//////////////////////PRÓXIMO COMANDO////////////////////// 
+
+ #compactação ZIP - uso zip + nome_do_arq_compa.zip + o arquivo que vai ser compactado
+
+#comando:
+ $ zip aularedes.zip aularedes.txt 
+#saida:
+ $ ls -lh 
+ -rw-rw-r-- 1 tiago tiago 1,4K fev  9 20:06 aularedes.zip
+
+#compactando vários arquivos
+#comando:
+ $ zip arquivos.zip arq.txt vazio.txt history.txt
+#saida:
+  adding: arq.txt (stored 0%)
+  adding: vazio.txt (stored 0%)
+  adding: history.txt (stored 0%)
+ $ ls -lh
+-rw-rw-r-- 1 tiago tiago  460 fev  9 20:08 arquivos.zip
+
+#descompactando ZIP
+#comando:
+$ unzip aularedes.zip
+#saida:
+Archive:  aularedes.zip
+replace aularedes.txt? [y]es, [n]o, [A]ll, [N]one, [r]ename: y
+  inflating: aularedes.txt 
+#como já havia um arquivo com o mesmo nome no diretorio ele pergunta o que fazer replace?
+
+#//////////////////////PRÓXIMO COMANDO////////////////////// 
+
+#compactando com bzip2 -> uso bzip2 arquivo
+#comando:
+ $ bzip2 aularedes.txt
+#saida:
+ls -lh
+-rw-rw-r-- 1 tiago tiago 1,4K fev  9 19:51 aularedes.txt.bz2
+
+#descompactando com bzip2
+#comando:
+$ bzip2 -d aularedes.txt.bz2
+#saida:
+ls -lh
+-rw-rw-r-- 1 tiago tiago 2,6K fev  9 19:51 aularedes.txt
+
+
+#//////////////////////PRÓXIMO COMANDO//////////////////////
+
+#rar -> necessita ser instalado na primeira utulização
+#uso rar a arquivo.rar aularedes.txt
+
+#comando:
+$ rar a arquivo.rar aularedes.txt 
+#saida:
+RAR 5.50   Copyright (c) 1993-2017 Alexander Roshal   11 Aug 2017
+Trial version             Type 'rar -?' for help
+
+Evaluation copy. Please register.
+
+Creating archive arquivo.rar
+
+Adding    aularedes.txt                                               OK 
+Done
+
+#descompactação de arquivos rar
+#comando:
+$ rar x arquivo.rar 
+#saida:
+
+RAR 5.50   Copyright (c) 1993-2017 Alexander Roshal   11 Aug 2017
+Trial version             Type 'rar -?' for help
+
+
+Extracting from arquivo.rar
+
+
+Would you like to replace the existing file aularedes.txt
+  2614 bytes, modified on 2021-02-09 19:51
+with a new one
+  2614 bytes, modified on 2021-02-09 19:51
+
+[Y]es, [N]o, [A]ll, n[E]ver, [R]ename, [Q]uit 
+#já havia um arquivo de mesmo nome, pediu para escolher o que fazer.
+
+
+
+#//////////////////////ARQUIVADORES//////////////////////
+
+#*Um "arquivador" junta vários arquivos em um só, mas pode ser usado em conjunto com um compactador para armazenar arquivos compactados.
+# tar - o tar é um aquivador muito utilizado no Linux até mesmo em arquivos de sistema.
+#USO: tar -cf aularedes.txt.tar aularedes.txt
+
+#comando:
+ $ tar -cf arquivos.tar aularedes.txt arq.txt history.txt 
+#saida:
+ $ ls -lh
+ -rw-rw-r-- 1 tiago tiago  10K fev  9 20:39 arquivos.tar
+
+#compactando o arquivo.tar
+#comando:
+ $ gzip arquivos.tar 
+#saida:
+ $ ls -lh
+ -rw-rw-r-- 1 tiago tiago 1,4K fev  9 20:39 arquivos.tar.gz
+
+# para descompactar um 'tar.gz'
+#USO: tar -xvf aularedes.tar.gz
+#comando:
+ $ tar -xvf arquivos.tar.gz 
+#saida:
+aularedes.txt
+arq.txt
+history.txt
+
+#para extrair para outro diretório
+#USO: tar -xvf arquivos.tar.gz -C ~/Documentos
+#comando:
+ $ tar -xvf arquivos.tar.gz -C ~/Documentos
+#saida:
+aularedes.txt
+arq.txt
+history.txt
+#no diretorio Documentos.
+
+#compactando um arquivo 'tar' para '.zip'
+#comando:
+ $ zip arquivos.tar.zip arquivos.tar 
+#saida:
+  adding: arquivos.tar (deflated 86%)
+ $ ls -lh 
+ -rw-rw-r-- 1 tiago tiago 1,6K fev  9 20:52 arquivos.tar.zip
+
+#compactando um arquivo 'tar' para '.rar'
+#comando:
+ $ rar a aquivos.tar.rar arquivos.tar
+#saida:
+RAR 5.50   Copyright (c) 1993-2017 Alexander Roshal   11 Aug 2017
+Trial version             Type 'rar -?' for help
+
+Evaluation copy. Please register.
+
+Creating archive aquivos.tar.rar
+
+Adding    arquivos.tar                                                OK 
+Done
+
+ $ ls -lh
+ -rw-rw-r-- 1 tiago tiago 1,5K fev  9 20:54 aquivos.tar.rar
+
+
+#compactando um arquivo 'tar' para '.bzip2'
+#comando:
+ $ bzip2 arquivos.tar
+#saida:
+ $ ls -lh
+ -rw-rw-r-- 1 tiago tiago 1,5K fev  9 20:39 arquivos.tar.bz2
+
+#para descompactar um arquivo '.bzip2'
+#comando:
+ $ bzip2 -d arquivos.tar.bz2 
+#saida:
+ $ ls -lh
+ -rw-rw-r-- 1 tiago tiago 1,5K fev  9 20:54 aquivos.tar.rar
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

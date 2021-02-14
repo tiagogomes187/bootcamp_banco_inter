@@ -1,0 +1,61 @@
+Aula 03
+
+/ = Raiz do sistema
+
+/bin/ = Binários principais dos usários
+/boot/ = Arquivos do sistema de boot
+/dev/ = Arquivos de dispositivos
+/etc/ = Arquivos de configurações do sistema
+/home/ = Diretório dos usuários do sistema
+/lib/ = Bibliotecas essenciais do sistema e módulos do kernel
+/media/ = Diretório de montagem e dispositivos
+/mnt/ = Diretório de montagem de dispositivos - mesmo que 'media'
+/opt/ = Instalação de programas não oficiais da distribuição ou por conta do usuáro
+/sbin/ = Armazena arquivos executáveis que representam comandos administrativos. Ex: shutdown
+/srv/ = Diretório para dados de serviços fornecidos pelo sistema
+/tmp/ = Diretório para araquivos temporários
+/usr/ = Segunda hierarquia do sistema, onde ficam os usuários comuns do sistema e programas.
+/var/ = Diretório com arquivos variáveis gerados pelos programas do sistema: Logs, spool da impressora, e-mail e cache.
+/root/ = Diretório do usuário root - O usuário root tem o total poder sobre o sistema. Podendo configurar o mesmo.
+/proc/ = Diretório virtual controlado pelo kernel. Normalmente neste diretório é colocado: Informação de memória, Informação do sistema, etc...
+
+
+ $ cat /proc/meminfo | more = Visulisar informações de memória.
+ $ cat /proc/cpuinfo | more = Informação da CPU.
+
+ $ lspci = Para visualisar todos os hardwares conectados via PCI
+ 
+ $ lsusb = Para visualisar todos o USB
+ 
+ $ arch = Para mostrar a arquitetura do sistema que está sendo usado.
+ 
+ $ uname = Mostra o kernel do sistema
+ 
+ $ uname -m = Tambem mostra a arquitetura
+ 
+ $ uname -r = Mostra a versão do kernel.
+ 
+ $ free = Mostra a saída de memória fisica e Swap.
+ 
+ $du -h ~ | more = Para saber o quanto de memória o diretório. Ex: Da pasta pessoal.
+ 
+ OBS. O -h significa: human readable = A leitura facilitada para humanos.
+ 
+ $ fg = verifica comandos parados no terminal
+ 
+ $ cat /etc/passwd = Mostra todos os usuários criados pelo sistema. Mostra tambem informações do usuario como: nome, pasta, e onde é executado os comandos.
+ 
+ $ reboot = reinicia o nosso sistema.
+ 
+ $ shutdown -h now = Desliga o sistema.
+ 
+ $ lscpu | more = Mostra informações da CPU.
+ 
+ $ lshw | more = Gera uma lista de todos o hardwares que ele encontrar no sistema.
+ 
+ $ lshw -short = Mostra alguns caminhos de hardwares do sistema.
+ 
+ $ echo -e 'Tiago\n' = Imprime com uma quebra de linha
+ 
+ 
+ 

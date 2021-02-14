@@ -1,0 +1,37 @@
+---COMANDOS PARA DESLIGAR O SISTEMA OPERACIONAL---
+
+##COMANDO:
+##SAÍDA:
+
+##COMANDO:
+init 0 = vai desligar a minha máquina agora.
+##SAÍDA:
+desliga a máquina.
+
+##COMANDO:
+telinit 0 = tambem desliga a máquina agora.
+##SAÍDA:
+desliga a máquina.
+
+##COMANDO:
+halt = pede a senha do usuario para poder desligar a máquina.
+##SAÍDA:
+desliga a máquina se o usuario digitar a senha de autenticação.
+
+##COMANDO:
+seq 1 10 = imprime uma sequência de número de 1 a 10 por exemplo.
+##SAÍDA:
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+##COMANDO:
+
+##SAÍDA:
+

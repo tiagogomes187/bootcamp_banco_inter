@@ -1,0 +1,53 @@
+
+Exercícios Práticos
+1) Crie um arquivo de aularedes.txt
+R: touch aularedes.txt
+
+2) Exiba o número de IP da rede no terminal
+R: hostname -I 
+
+3) Adicione a saída do comando anterior ao arquivo aula redes.txt
+R: hostname -I >> aularedes.txt 
+
+4) Exiba o número de IP Loopback no terminal
+R: hostname -i
+
+5) Adicione a saída do comando anterior ao arquivo aula redes.txt
+R:hostname -i >> aularedes.txt
+
+6) Exiba Informações DNS sobre o host www.pudim.com.br
+R: dig www.pudin.com.br
+
+7) Adicione a saída do comando anterior ao arquivo aula redes.txt
+R:  dig www.pudin.com.br >> aularedes.txt 
+
+8) Exiba Informações do Usuário logado na rede
+R: w
+
+9) Adicione a saída do comando anterior ao arquivo aula redes.txt
+R: w >> aularedes.txt
+
+10) Execute um teste no host www.pudim.com.br com 6 pacotes
+R: ping www.pudim.com.br -w 6
+
+11) Adicione a saída do comando anterior ao arquivo aula redes.txt
+R: ping www.pudim.com.br -w 6 >> aularedes.txt
+
+12) Trace a Rota do seu computador até o host www.pudim.com.br
+R: traceroute www.pudim.com.br
+
+13) Adicione a saída do comando anterior ao arquivo aula redes.txt
+R: traceroute www.pudim.com.br >> aularedes.txt 
+
+14) Exiba Informações sobre Interfaces de Rede e Endereços IP no terminal
+R: ifconfig
+
+15) Adicione a saída do comando anterior ao arquivo aula redes.txt
+R: ifconfig >> aularedes.txt
+
+16) Limpe o terminal
+R: clear
+
+17) Imprima o arquivo aularedes.txt com paginação no terminal
+R: cat aularedes.txt  | more
+

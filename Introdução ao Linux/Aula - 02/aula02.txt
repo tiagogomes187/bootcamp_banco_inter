@@ -1,0 +1,88 @@
+---AULA 02---
+
+^ = CTRL no nano.
+^G = Obter ajuda
+^O = Gravar
+^W = Onde está?
+^K = Recort txt
+^J = Justificar
+ALT+U = Desfazer
+
+ $ cat = Exibe o conteudo do arquivo no terminal
+ $ tac = Inverte as linha do conteudo.
+
+ $ head = Mostra as 10 primeiras linhas do arquivo.
+ $ tail = Mostra as 10 ultimas linhas do arquivo.
+ 
+ $ tail teste.txt > distros.txt = Cria um novo arquivo com nome distros.txt com as 10 ultimas linhas do arquivo teste.txt
+
+ $ head teste.txt > distros2.txt = Cria um novo arquivo com nome distros2.txt com as 10 primeiras linhas do arquivo teste.txt
+
+ $ cal = Mostra um calendário do mês corrente.
+
+ $ cal > calendario_julho.txt = Cria um arquivo .txt contendo o calendário atual
+
+ $ date = Mostra a data atual.
+
+ $ date >> calendario_julho.txt = Adiciona a data atual ao arquivo calendario_julho.txt
+
+ PIPE | = Ultilizado para executar 2 comandos de uma só vez.
+ 
+ $ tail distros.txt | grep Linux = Este comando faz uma busca por uma palavra especifica.
+
+ $ grep = Busca por PADRÕES em cada ARQUIVO.
+Exemplo: grep -i "olá, mundo" menu.h main.c
+PADRÕES pode conter múltiplos padrões separados por nova-linha.
+
+ $ cat comandos_shell_linux.txt | more = Faz a paginção de arquivo contendo muitas linhas.
+ $ cat comandos_shell_linux.txt | less = Também faz a paginação, não aparece o 'mais' e sim ':'.
+ 
+ $ cat calendario_21.txt & cat maio.txt = Separa por linha do terminal o resultado do comando 'cat'.
+ 
+ $ cat maio.txt && cat calendario_21.txt  = Exibe 1 saida só, sem pausa. Exibe o conteúdo dos 2 arquivos de uma só vez.
+ 
+ $ mkdir linux_ubuntu && cd linux_ubuntu = Cria a pasta e entra na pasta utilizando dois comando de uma só vez. O '&&' concatena os dois comando: 'mkdir' e 'cd'.
+ 
+ $ file = Exibe o tipo do arquivo e diretório. Ex: maio.txt = saida: calendario_21.txt: UTF-8 Unicode text, with overstriking
+ 
+ $ whatis = Exibe uma explicação sobre o comando.. Ex: $ whatis file = 'determine file type'
+ 
+ $ find = Buscar em um diretório um determinado arquivo pelo nome. Ex: $ ~ -name maio.txt
+ 
+ $ grep = Busca palavras em arquivos de texto.
+ 
+  $ more = Exibe a paginação em um arquivo de texto.
+  
+  ---------------------
+  
+  | - pipe = Envia a saída de um comando para entrada de outro comando permitindo a execução de dois comando.
+  
+  > - maior que = Redireciona a saída de um comando para outro comando ou arquivo.
+  
+  >> - maior que 2x - Redireciona a saída e adiciona a mesma para um comando ou arquivo.
+  
+  < - menor que = Direciona a entrada de um arquivo para a saída de um comando.
+  
+  & - Ê comercial = Este operador permite usar dois comando e separar suas saídas non terminal.
+  
+  && - Ê comercial 2x = Usado para que dois comandos só sejam executados se o primeiro for executado com sucesso.
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
