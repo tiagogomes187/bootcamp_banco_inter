@@ -1,13 +1,17 @@
+funcoes_e_imutabilidade/Funcional.java
+ funcoes_e_imutabilidade.Funcional
 funcoes_e_imutabilidade/Imperativo.java
  funcoes_e_imutabilidade.Imperativo
 funcoes_e_imutabilidade/FuncoesPuras.java
  funcoes_e_imutabilidade.FuncoesPuras
 funcoes_e_imutabilidade/ComposicaoDeFuncoes.java
  funcoes_e_imutabilidade.ComposicaoDeFuncoes
+recursividade/FatorialRecursivo.java
+ recursividade.FatorialRecursivo
 funcoes_e_imutabilidade/Imultabilidade.java
  funcoes_e_imutabilidade.Imultabilidade
-funcoes_e_imutabilidade/Funcional.java
- funcoes_e_imutabilidade.Funcional
 lambdas/FuncaoComLambda.java
  lambdas.Funcao
  lambdas.FuncaoComLambda
+recursividade/FatorialTailCall.java
+ recursividade.FatorialTailCall
