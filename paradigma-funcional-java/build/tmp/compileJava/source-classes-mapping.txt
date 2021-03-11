@@ -15,3 +15,10 @@ lambdas/FuncaoComLambda.java
  lambdas.FuncaoComLambda
 recursividade/FatorialTailCall.java
  recursividade.FatorialTailCall
+interfaces_funcionais/FuncaoAltaOrdem.java
+ interfaces_funcionais.FuncaoAltaOrdem
+ interfaces_funcionais.FuncaoAltaOrdem$Calculo
+interfaces_funcionais/Consumidores.java
+ interfaces_funcionais.Consumidores
+interfaces_funcionais/Funcoes.java
+ interfaces_funcionais.Funcoes
