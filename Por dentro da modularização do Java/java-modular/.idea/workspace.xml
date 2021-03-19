@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7346f33c-d244-4217-b908-8dd09212bc10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/digital.innovation.one.core/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digital.innovation.one.utils/digital.innovation.one.utils.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/digital.innovation.one.utils/src/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital.innovation.one.core/digital.innovation.one.core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/digital.innovation.one.core/digital.innovation.one.core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/digital.innovation.one.core/src/digital/innovation/one/core/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/digital.innovation.one.core/src/digital/innovation/one/core/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/digital/innovation/one/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/digital/innovation/one/operacao/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/digital.innovation.one.utils/src/digital/innovation/one/utils/Calculadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/digital/innovation/one/operacao/Operacao.java" beforeDir="false" afterPath="$PROJECT_DIR$/digital.innovation.one.utils/src/digital/innovation/one/utils/internal/Operacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/digital/innovation/one/operacao/internal/DivHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/digital.innovation.one.utils/src/digital/innovation/one/utils/internal/DivHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/digital/innovation/one/operacao/internal/MultiHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/digital.innovation.one.utils/src/digital/innovation/one/utils/internal/MultiHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/digital/innovation/one/operacao/internal/SubHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/digital.innovation.one.utils/src/digital/innovation/one/utils/internal/SubHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/digital/innovation/one/operacao/internal/SumHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/digital.innovation.one.utils/src/digital/innovation/one/utils/internal/SumHelper.java" afterDir="false" />
-    </list>
+    <list default="true" id="7346f33c-d244-4217-b908-8dd09212bc10" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
