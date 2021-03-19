@@ -1,4 +1,4 @@
-package digital.innovation.one.operacao;
+package digital.innovation.one.utils.internal;
 
 public interface Operacao {
 

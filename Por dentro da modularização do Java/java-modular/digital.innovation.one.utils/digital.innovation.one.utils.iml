@@ -7,6 +7,5 @@
     </content>
     <orderEntry type="jdk" jdkName="11" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="digital.innovation.one.utils" />
   </component>
 </module>

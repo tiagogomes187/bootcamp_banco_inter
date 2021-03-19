@@ -1,6 +1,4 @@
-package digital.innovation.one.operacao.internal;
-
-import digital.innovation.one.operacao.Operacao;
+package digital.innovation.one.utils.internal;
 
 public class SubHelper implements Operacao {
     @Override
