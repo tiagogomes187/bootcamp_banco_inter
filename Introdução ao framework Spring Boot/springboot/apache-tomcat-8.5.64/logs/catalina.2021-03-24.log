@@ -1,0 +1,262 @@
+24-Mar-2021 01:42:21.212 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.64
+24-Mar-2021 01:42:21.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 4 2021 23:14:16 UTC
+24-Mar-2021 01:42:21.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.64.0
+24-Mar-2021 01:42:21.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Mar-2021 01:42:21.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.8.0-45-generic
+24-Mar-2021 01:42:21.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Mar-2021 01:42:21.222 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-11.0.10
+24-Mar-2021 01:42:21.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+8-LTS-162
+24-Mar-2021 01:42:21.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Mar-2021 01:42:21.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64
+24-Mar-2021 01:42:21.223 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64
+24-Mar-2021 01:42:21.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-Mar-2021 01:42:21.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-Mar-2021 01:42:21.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-Mar-2021 01:42:21.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-Mar-2021 01:42:21.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-Mar-2021 01:42:21.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/conf/logging.properties
+24-Mar-2021 01:42:21.224 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Mar-2021 01:42:21.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Mar-2021 01:42:21.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Mar-2021 01:42:21.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Mar-2021 01:42:21.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Mar-2021 01:42:21.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64
+24-Mar-2021 01:42:21.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64
+24-Mar-2021 01:42:21.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/temp
+24-Mar-2021 01:42:21.226 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+24-Mar-2021 01:42:21.259 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Mar-2021 01:42:21.273 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Mar-2021 01:42:21.284 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 681 ms
+24-Mar-2021 01:42:21.338 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Mar-2021 01:42:21.338 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.64
+24-Mar-2021 01:42:21.359 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/springboot-1.1.war]
+24-Mar-2021 01:42:21.671 WARNING [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+24-Mar-2021 01:42:22.776 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Mar-2021 01:42:22.909 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/springboot-1.1.war] has finished in [1,538] ms
+24-Mar-2021 01:42:22.913 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/host-manager]
+24-Mar-2021 01:42:22.970 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/host-manager] has finished in [57] ms
+24-Mar-2021 01:42:22.970 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/examples]
+24-Mar-2021 01:42:23.218 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/examples] has finished in [248] ms
+24-Mar-2021 01:42:23.218 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/docs]
+24-Mar-2021 01:42:23.233 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/docs] has finished in [15] ms
+24-Mar-2021 01:42:23.233 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/ROOT]
+24-Mar-2021 01:42:23.247 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/ROOT] has finished in [14] ms
+24-Mar-2021 01:42:23.248 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/manager]
+24-Mar-2021 01:42:23.265 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/manager] has finished in [17] ms
+24-Mar-2021 01:42:23.273 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Mar-2021 01:42:23.297 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2012 ms
+24-Mar-2021 01:58:53.442 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/home/tiago/Documentos/bootcamp_banco_inter/Introdução%20ao%20framework%20Spring%20Boot/springboot/apache-tomcat-8.5.64/conf/tomcat-users.xml]
+24-Mar-2021 02:01:19.454 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Mar-2021 02:01:19.455 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Mar-2021 02:01:19.457 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Mar-2021 02:01:19.534 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Mar-2021 02:01:19.539 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Mar-2021 02:01:32.104 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.64
+24-Mar-2021 02:01:32.108 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 4 2021 23:14:16 UTC
+24-Mar-2021 02:01:32.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.64.0
+24-Mar-2021 02:01:32.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Mar-2021 02:01:32.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.8.0-45-generic
+24-Mar-2021 02:01:32.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Mar-2021 02:01:32.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-11.0.10
+24-Mar-2021 02:01:32.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+8-LTS-162
+24-Mar-2021 02:01:32.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Mar-2021 02:01:32.111 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64
+24-Mar-2021 02:01:32.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64
+24-Mar-2021 02:01:32.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-Mar-2021 02:01:32.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-Mar-2021 02:01:32.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-Mar-2021 02:01:32.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-Mar-2021 02:01:32.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-Mar-2021 02:01:32.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/conf/logging.properties
+24-Mar-2021 02:01:32.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Mar-2021 02:01:32.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Mar-2021 02:01:32.112 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Mar-2021 02:01:32.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Mar-2021 02:01:32.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Mar-2021 02:01:32.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64
+24-Mar-2021 02:01:32.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64
+24-Mar-2021 02:01:32.113 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/temp
+24-Mar-2021 02:01:32.113 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+24-Mar-2021 02:01:32.147 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Mar-2021 02:01:32.160 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Mar-2021 02:01:32.174 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 541 ms
+24-Mar-2021 02:01:32.226 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Mar-2021 02:01:32.226 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.64
+24-Mar-2021 02:01:32.249 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/springboot-1.1.war]
+24-Mar-2021 02:01:32.436 WARNING [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+24-Mar-2021 02:01:33.970 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Mar-2021 02:01:34.173 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/springboot-1.1.war] has finished in [1,923] ms
+24-Mar-2021 02:01:34.177 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/host-manager]
+24-Mar-2021 02:01:34.242 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/host-manager] has finished in [66] ms
+24-Mar-2021 02:01:34.243 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/examples]
+24-Mar-2021 02:01:34.505 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/examples] has finished in [262] ms
+24-Mar-2021 02:01:34.506 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/docs]
+24-Mar-2021 02:01:34.526 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/docs] has finished in [20] ms
+24-Mar-2021 02:01:34.527 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/ROOT]
+24-Mar-2021 02:01:34.547 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/ROOT] has finished in [19] ms
+24-Mar-2021 02:01:34.547 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/manager]
+24-Mar-2021 02:01:34.578 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/manager] has finished in [30] ms
+24-Mar-2021 02:01:34.592 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Mar-2021 02:01:34.615 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2440 ms
+24-Mar-2021 02:02:42.724 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Mar-2021 02:02:42.725 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Mar-2021 02:02:42.733 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Mar-2021 02:02:42.820 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Mar-2021 02:02:42.827 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Mar-2021 02:04:37.365 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.64
+24-Mar-2021 02:04:37.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 4 2021 23:14:16 UTC
+24-Mar-2021 02:04:37.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.64.0
+24-Mar-2021 02:04:37.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Mar-2021 02:04:37.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.8.0-45-generic
+24-Mar-2021 02:04:37.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Mar-2021 02:04:37.379 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-11.0.10
+24-Mar-2021 02:04:37.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+8-LTS-162
+24-Mar-2021 02:04:37.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Mar-2021 02:04:37.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64
+24-Mar-2021 02:04:37.386 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64
+24-Mar-2021 02:04:37.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-Mar-2021 02:04:37.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-Mar-2021 02:04:37.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-Mar-2021 02:04:37.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-Mar-2021 02:04:37.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-Mar-2021 02:04:37.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/conf/logging.properties
+24-Mar-2021 02:04:37.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Mar-2021 02:04:37.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Mar-2021 02:04:37.387 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Mar-2021 02:04:37.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Mar-2021 02:04:37.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Mar-2021 02:04:37.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64
+24-Mar-2021 02:04:37.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64
+24-Mar-2021 02:04:37.388 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/temp
+24-Mar-2021 02:04:37.388 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+24-Mar-2021 02:04:37.432 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Mar-2021 02:04:37.451 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Mar-2021 02:04:37.464 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 752 ms
+24-Mar-2021 02:04:37.517 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Mar-2021 02:04:37.517 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.64
+24-Mar-2021 02:04:37.536 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/springboot-1.1.war]
+24-Mar-2021 02:04:37.752 WARNING [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+24-Mar-2021 02:04:39.161 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Mar-2021 02:04:39.287 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/springboot-1.1.war] has finished in [1,750] ms
+24-Mar-2021 02:04:39.290 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/host-manager]
+24-Mar-2021 02:04:39.326 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/host-manager] has finished in [35] ms
+24-Mar-2021 02:04:39.326 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/examples]
+24-Mar-2021 02:04:39.464 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/examples] has finished in [137] ms
+24-Mar-2021 02:04:39.464 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/docs]
+24-Mar-2021 02:04:39.492 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/docs] has finished in [28] ms
+24-Mar-2021 02:04:39.493 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/ROOT]
+24-Mar-2021 02:04:39.511 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/ROOT] has finished in [18] ms
+24-Mar-2021 02:04:39.511 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/manager]
+24-Mar-2021 02:04:39.539 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/manager] has finished in [28] ms
+24-Mar-2021 02:04:39.552 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Mar-2021 02:04:39.594 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2129 ms
+24-Mar-2021 02:05:02.815 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Mar-2021 02:05:02.816 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Mar-2021 02:05:02.823 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Mar-2021 02:05:02.893 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Mar-2021 02:05:02.897 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Mar-2021 02:05:37.902 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.64
+24-Mar-2021 02:05:37.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 4 2021 23:14:16 UTC
+24-Mar-2021 02:05:37.906 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.64.0
+24-Mar-2021 02:05:37.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Mar-2021 02:05:37.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.8.0-45-generic
+24-Mar-2021 02:05:37.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Mar-2021 02:05:37.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-11.0.10
+24-Mar-2021 02:05:37.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+8-LTS-162
+24-Mar-2021 02:05:37.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Mar-2021 02:05:37.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64
+24-Mar-2021 02:05:37.907 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64
+24-Mar-2021 02:05:37.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-Mar-2021 02:05:37.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-Mar-2021 02:05:37.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-Mar-2021 02:05:37.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-Mar-2021 02:05:37.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-Mar-2021 02:05:37.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/conf/logging.properties
+24-Mar-2021 02:05:37.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Mar-2021 02:05:37.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Mar-2021 02:05:37.912 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Mar-2021 02:05:37.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Mar-2021 02:05:37.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Mar-2021 02:05:37.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64
+24-Mar-2021 02:05:37.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64
+24-Mar-2021 02:05:37.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/temp
+24-Mar-2021 02:05:37.916 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+24-Mar-2021 02:05:37.954 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Mar-2021 02:05:37.968 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Mar-2021 02:05:37.981 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 639 ms
+24-Mar-2021 02:05:38.025 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Mar-2021 02:05:38.026 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.64
+24-Mar-2021 02:05:38.046 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/springboot-1.1.war]
+24-Mar-2021 02:05:38.322 WARNING [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+24-Mar-2021 02:05:39.860 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Mar-2021 02:05:40.010 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/springboot-1.1.war] has finished in [1,963] ms
+24-Mar-2021 02:05:40.012 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/host-manager]
+24-Mar-2021 02:05:40.063 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/host-manager] has finished in [51] ms
+24-Mar-2021 02:05:40.063 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/examples]
+24-Mar-2021 02:05:40.508 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/examples] has finished in [445] ms
+24-Mar-2021 02:05:40.509 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/docs]
+24-Mar-2021 02:05:40.542 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/docs] has finished in [32] ms
+24-Mar-2021 02:05:40.547 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/ROOT]
+24-Mar-2021 02:05:40.584 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/ROOT] has finished in [37] ms
+24-Mar-2021 02:05:40.585 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/manager]
+24-Mar-2021 02:05:40.645 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/manager] has finished in [60] ms
+24-Mar-2021 02:05:40.663 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Mar-2021 02:05:40.696 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2714 ms
+24-Mar-2021 02:09:10.697 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/home/tiago/Documentos/bootcamp_banco_inter/Introdução%20ao%20framework%20Spring%20Boot/springboot/apache-tomcat-8.5.64/conf/tomcat-users.xml]
+24-Mar-2021 02:09:14.523 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Mar-2021 02:09:14.523 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Mar-2021 02:09:14.526 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Mar-2021 02:09:14.605 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Mar-2021 02:09:14.610 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+24-Mar-2021 02:09:37.792 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/8.5.64
+24-Mar-2021 02:09:37.803 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 4 2021 23:14:16 UTC
+24-Mar-2021 02:09:37.804 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 8.5.64.0
+24-Mar-2021 02:09:37.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+24-Mar-2021 02:09:37.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.8.0-45-generic
+24-Mar-2021 02:09:37.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+24-Mar-2021 02:09:37.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-11.0.10
+24-Mar-2021 02:09:37.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+8-LTS-162
+24-Mar-2021 02:09:37.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+24-Mar-2021 02:09:37.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64
+24-Mar-2021 02:09:37.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64
+24-Mar-2021 02:09:37.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+24-Mar-2021 02:09:37.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+24-Mar-2021 02:09:37.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+24-Mar-2021 02:09:37.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+24-Mar-2021 02:09:37.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+24-Mar-2021 02:09:37.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/conf/logging.properties
+24-Mar-2021 02:09:37.808 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+24-Mar-2021 02:09:37.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+24-Mar-2021 02:09:37.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+24-Mar-2021 02:09:37.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+24-Mar-2021 02:09:37.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+24-Mar-2021 02:09:37.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64
+24-Mar-2021 02:09:37.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64
+24-Mar-2021 02:09:37.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/temp
+24-Mar-2021 02:09:37.809 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+24-Mar-2021 02:09:37.851 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+24-Mar-2021 02:09:37.865 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+24-Mar-2021 02:09:37.891 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 735 ms
+24-Mar-2021 02:09:38.017 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+24-Mar-2021 02:09:38.018 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.64
+24-Mar-2021 02:09:38.049 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/springboot-1.1.war]
+24-Mar-2021 02:09:38.355 WARNING [localhost-startStop-1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+24-Mar-2021 02:09:39.975 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+24-Mar-2021 02:09:40.171 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/springboot-1.1.war] has finished in [2,121] ms
+24-Mar-2021 02:09:40.174 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/host-manager]
+24-Mar-2021 02:09:40.221 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/host-manager] has finished in [47] ms
+24-Mar-2021 02:09:40.222 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/examples]
+24-Mar-2021 02:09:40.439 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/examples] has finished in [216] ms
+24-Mar-2021 02:09:40.439 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/docs]
+24-Mar-2021 02:09:40.459 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/docs] has finished in [20] ms
+24-Mar-2021 02:09:40.460 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/ROOT]
+24-Mar-2021 02:09:40.482 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/ROOT] has finished in [22] ms
+24-Mar-2021 02:09:40.483 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/manager]
+24-Mar-2021 02:09:40.525 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/tiago/Documentos/bootcamp_banco_inter/Introdução ao framework Spring Boot/springboot/apache-tomcat-8.5.64/webapps/manager] has finished in [40] ms
+24-Mar-2021 02:09:40.533 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+24-Mar-2021 02:09:40.550 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2658 ms
+24-Mar-2021 02:17:03.152 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+24-Mar-2021 02:17:03.152 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+24-Mar-2021 02:17:03.159 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+24-Mar-2021 02:17:03.228 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+24-Mar-2021 02:17:03.233 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
